@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="game.js"></script>
+    <title>Snake</title>
+</head>
+<body>
+    <div id="snake-game-container">
+        
+    </div>
+ <script> 
+    new SnakeGame().Init({
+        selector:"#snake-game-container",
+        grid: 25,
+        border:true,
+        shade:false,
+        level:8,
+        mission:true,
+        startLength:3,
+        lang:"az"
+    });
+ </script>
+</body>
+</html>
